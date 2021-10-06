@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+
+    <!-- RESPONSIVE META TAG  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CDN CSS Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!-- jquery bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+
+    <!-- CDN ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+
+    <title>Site Cellep</title>
+
+    <!-- Nosso css e js -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+
+  </head>
+  <body>
+
+    <header class="sticky-top">
+
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+
+        <!-- ICONE/LOGO CELLEP -->
+        <img src="https://br.cellep.com/wp-content/themes/cellep/assets/img/logo_branca.svg">
+
+        <!-- BTN DO MENU HAMBURGUER -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+
+        <!-- LINKS -->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+          <!-- lista dos links -->
+          <ul class="navbar-nav ml-auto">
+            
+            <!-- home -->
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+
+            <!-- agenda -->
+            <li class="nav-item">
+              <a class="nav-link" href="agenda.html">Agenda</a>
+            </li>
+
+            <!-- dropdown -->
+            <li class="nav-item dropdown">
+
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Entidades
+              </a>
+              
+              <!-- itens do dropdown -->
+              <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+
+                <!-- icone + link cellep -->
+                <a class="dropdown-item text-white"  target="_blank" href="https://br.cellep.com">
+                  <i class="bi bi-person-circle mr-2"></i>
+                  Cellep
+                </a>
+
+                <!-- icone + link estacao hack -->
+                <a class="dropdown-item text-white" target="_blank" href="https://estacaohack.fb.com">
+                  <i class="bi bi-facebook mr-2"></i>
+                  Estação Hack
+                </a>
+              </div>
+
+            </li>
+
+            <!-- área do aluno -->
+            <li class="nav-item">
+              <a class="nav-link active" href="area_aluno.html">Área do aluno</a>
+            </li>
+
+
+          </ul>
+        </div>
+      </nav>
+
+
+    </header>
+
+    <main>
+      <section class="container">
+
+        <!-- linha 1 Titulo -->
+        <div class="row mt-3">
+          <div class="col-md-12">
+            <h2 class="vitorSemInternet">Área do aluno</h2>
+            <hr>
+          </div>
+        </div>
+
+        <!-- linha 2 form -->
+        <div class="row"> <!-- linha 2 inicio -->
+          <div class="col-md-12"> <!-- inicio coluna -->
+
+            <form id="loginAluno">
+              <div class="form-group">
+                
+                <!-- Usuario -->
+                <label for="inputUsuario">Usuario: </label>
+                <input type="text" class="form-control" id="inputUsuario" required autocomplete="off" placeholder="Digite seu usuario">
+
+              </div>
+
+                <!-- Senha -->
+              <div class="form-group">
+                <label for="inputSenha">Senha: </label>
+                <input type="password" class="form-control" id="inputSenha" autocomplete="off" required placeholder="Digite sua senha">
+              </div>
+
+              <!-- Button -->
+              <button type="submit" class="btn btn-primary">Entrar</button>
+              <div>
+                <a href="">Esqueci a senha</a>
+              </div>
+              
+            </form>
+          </div> <!-- fim coluna --> 
+        </div> <!-- linha 2 fim -->
+
+        <!-- linha 3 -->
+        <div class="row">
+          <div class="col-md-12">
+            <div id="mensagem"></div> 
+          </div>
+        </div>
+
+      </section>
+
+
+    </main>
+
+    <footer class="footer bg-dark mt-3 fixed-bottom">
+      <div class="container text-center p-2 text-white font-italic">
+        Desenvolvido por<a href="https://www.linkedin.com/in/joão-lucas-gomes-rocha-2873b1207/"> João Lucas </a>/ Cel.Lep. Todos os direitos reservados
+      </div>
+      </div>
+    </footer>
+
+
+  </body>
+</html>

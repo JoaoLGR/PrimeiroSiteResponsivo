@@ -1,0 +1,55 @@
+body{
+  background-color: #a6dced;
+}
+
+/* HEADER */
+.active{
+  background-color: blueviolet;
+}
+
+.nav-link{
+  color:white !important;
+}
+
+.nav-link:hover:not(.active), .dropdown-item:hover{
+  background-color: red;
+}
+
+/* FOOTER */
+footer{
+  height: 60px;
+}
+
+
+/*MAIN*/
+.bg-imagem{
+  background-image: url(https://cdn.pixabay.com/photo/2015/01/08/18/24/children-593313_960_720.jpg);
+  height: 48vw; /* unidade viewport - elementos tem efeito de responsividade*/
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.bg-imagem p{
+  font-size: 4vw;
+  text-shadow: 0 5px 10px black;
+}
+
+.card:hover{
+  box-shadow: 0 0 10px black;
+  border: 1px solid black;
+}
+/*AGENDA*/
+table td{
+  height: 70px;
+  background-color: whitesmoke;
+}
+table th{
+  background-color: #808080;
+}
+
+.card{
+  background-color: #b0e0e6;
+}
+.vitorSemInternet{
+   color: black;
+ }

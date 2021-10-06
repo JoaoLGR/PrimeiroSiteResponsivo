@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+
+    <!-- RESPONSIVE META TAG  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CDN CSS Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!-- jquery bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+
+    <!-- CDN ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+
+    <title>Site Cellep</title>
+
+    <!-- Nosso css e js -->
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <script src="script.js"></script>
+
+  </head>
+  <body>
+
+    <header class="sticky-top">
+
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+
+        <!-- ICONE/LOGO CELLEP -->
+        <img src="https://br.cellep.com/wp-content/themes/cellep/assets/img/logo_branca.svg">
+
+        <!-- BTN DO MENU HAMBURGUER -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+
+        <!-- LINKS -->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+          <!-- lista dos links -->
+          <ul class="navbar-nav ml-auto">
+            
+            <!-- home -->
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+
+            <!-- agenda -->
+            <li class="nav-item">
+              <a class="nav-link" href="agenda.html">Agenda</a>
+            </li>
+
+            <!-- dropdown -->
+            <li class="nav-item dropdown">
+
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Entidades
+              </a>
+              
+              <!-- itens do dropdown -->
+              <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
+
+                <!-- icone + link cellep -->
+                <a class="dropdown-item text-white"  target="_blank" href="https://br.cellep.com">
+                  <i class="bi bi-person-circle mr-2"></i>
+                  Cellep
+                </a>
+
+                <!-- icone + link estacao hack -->
+                <a class="dropdown-item text-white" target="_blank" href="https://estacaohack.fb.com">
+                  <i class="bi bi-facebook mr-2"></i>
+                  Estação Hack
+                </a>
+              </div>
+
+            </li>
+
+            <!-- área do aluno -->
+            <li class="nav-item">
+              <a class="nav-link" href="area_aluno.html">Área do aluno</a>
+            </li>
+
+
+          </ul>
+        </div>
+      </nav>
+
+
+    </header>
+
+    <main>
+      <!-- IMAGEM E SLOGAN -->
+      <div class="d-flex align-items-center text-center text-white bg-imagem">
+        <div class="container-fluid"> <!-- 100% largura -->
+          <p>Transformando vidas por meio da educação</p>
+        </div>
+      </div>
+
+      <!-- CARD -->
+      <section class="container">
+        
+        <div class="row mt-4"><!-- linha 1 titulo card -->
+          <div class="col-md-12">
+            <h2 class="vitorSemInternet">Conheça os nossos cursos</h2>
+            <hr>
+          </div>
+        </div><!-- fim linha titulo card -->
+
+        <div class="row mt-5"> <!-- linha 2 cards 1,2,3 -->
+          <div class="col-md-4"> <!-- coluna 1/3 -->
+            <!-- card 1 -->
+            <div class="card">
+              <img src="https://cdn-icons-png.flaticon.com/512/2721/2721264.png" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Web - Front-End</h5>
+                <p class="card-text">O desenvolvedor front-end é responsável pela experiência do usuário dentro de uma aplicação web, é ele quem vai desenhar e desenvolver as páginas com as quais, posteriormente, o usuário irá interagir.</p>
+                <a target="_blank" href="https://br.cellep.com/estacaohack" class="btn btn-primary">Conheça</a>
+              </div>
+            </div>
+          </div> <!-- fim coluna 1/3 -->
+          <div class="col-md-4"> <!-- coluna 2/3 -->
+            <!-- card 1 -->
+            <div class="card">
+              <img src="https://cdn-icons-png.flaticon.com/512/2166/2166823.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Web - Back-End</h5>
+                <p class="card-text">O back-end, também chamado somente de “servidor”, consiste no servidor que fornece os dados solicitados na aplicação que os canaliza e na base de dados que organiza as informações.</p>
+                <a target="_blank" href="https://br.cellep.com/estacaohack" class="btn btn-primary">Conheça</a>
+              </div>
+            </div>
+          </div> <!-- fim coluna 2/3 -->
+          <div class="col-md-4"> <!-- coluna 3/3 -->
+            <!-- card 1 -->
+            <div class="card">
+              <img src="https://cdn-icons-png.flaticon.com/512/2222/2222807.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">App - Android</h5>
+                <p class="card-text">Kotlin é uma linguagem de programação moderna para Android, JVM, Browser e desenvolvimento nativo criado pela JetBrains. A tecnologia tem o apoio oficial do Google.</p>
+                <a target="_blank" href="https://br.cellep.com/estacaohack" class="btn btn-primary">Conheça</a>
+              </div>
+            </div>
+          </div> <!-- fim coluna 1/3 -->
+        </div><!-- fim linha 2 cards 1,2,3 -->
+
+        <div class="row mt-5"> <!-- linha 3 cards 4,5,6 -->
+          <div class="col-md-4"> <!-- coluna 1/3 -->
+            <!-- card 1 -->
+            <div class="card">
+              <img src="https://img-premium.flaticon.com/png/512/3097/premium/3097945.png?token=exp=1633479548~hmac=b94ff06797f41dbfb889ca114c5e5731" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">UXUI - APP</h5>
+                <p class="card-text">Você aprenderá como projetar interfaces amigáveis para ambientes mobile e web com foco na experiência do usuário e criar designs incríveis e eficientes para navegação.</p>
+                <a target="_blank" href="https://br.cellep.com/estacaohack" class="btn btn-primary">Conheça</a>
+              </div>
+            </div>
+          </div> <!-- fim coluna 1/3 -->
+          <div class="col-md-4"> <!-- coluna 2/3 -->
+            <!-- card 1 -->
+            <div class="card">
+              <img src="https://cdn-icons-png.flaticon.com/512/1488/1488592.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">UXUI - Web</h5>
+                <p class="card-text">UI Design, é o meio pela qual uma pessoa interage e controla um dispositivo, software ou aplicativo. UX está relacionado com a experiência do usuário e com seus sentimentos.</p>
+                <a target="_blank" href="https://br.cellep.com/estacaohack" class="btn btn-primary">Conheça</a>
+              </div>
+            </div>
+          </div> <!-- fim coluna 2/3 -->
+          <div class="col-md-4"> <!-- coluna 3/3 -->
+            <!-- card 1 -->
+            <div class="card">
+              <img src="https://cdn-icons-png.flaticon.com/512/2132/2132417.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Inglês Instrumental</h5>
+                <p class="card-text">O inglês instrumental nada mais é que os estudos de Inglês para Propósitos Específicos. Essa técnica consiste no aprendizado rápido e preciso do idioma estrangeiro com um objetivo profissional.</p>
+                <a target="_blank" href="https://br.cellep.com/estacaohack" class="btn btn-primary">Conheça</a>
+              </div>
+            </div>
+          </div> <!-- fim coluna 1/3 -->
+        </div><!-- fim linha 3 cards 4,5,6 -->
+
+      </section>
+
+    </main>
+
+    <footer class="footer bg-dark mt-3"> <!-- fixed-bottom -->
+      <div class="container text-center p-2 text-white font-italic">
+       Desenvolvido por<a href="https://www.linkedin.com/in/joão-lucas-gomes-rocha-2873b1207/"> João Lucas </a>/ Cel.Lep. Todos os direitos reservados
+      </div>
+    </footer>
+
+
+  </body>
+</html>
